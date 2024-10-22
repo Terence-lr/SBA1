@@ -1,0 +1,108 @@
+/* Base Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa; /* Light cyan background */
+  color: #1a237e; /* Dark navy blue text */
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  color: #0d47a1; /* Deep blue */
+  margin: 20px 0;
+}
+
+/* Navigation Styling */
+nav {
+  text-align: center;
+  background-color: #1565c0; /* Medium blue */
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #b3e5fc; /* Light cyan */
+}
+
+/* Form Styling */
+form {
+  width: 80%;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #ffffff; /* White background for forms */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label,
+input,
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0d47a1; /* Deep blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1565c0; /* Medium blue */
+}
+
+/* Table Styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+th,
+td {
+  border: 1px solid #b3e5fc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #1565c0;
+  color: white;
+}
+
+/* Image and GIF Styling */
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  animation: fadeIn 2s ease-in-out;
+  border-radius: 10px;
+}
+
+/* CSS Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
